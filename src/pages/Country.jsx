@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './country.css'
+import './Country.css'
 import Loader from '../components/Loader';
 import {Link}  from 'react-router-dom';
 
