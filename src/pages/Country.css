@@ -1,0 +1,24 @@
+.country-card{
+    
+    padding:20px;
+    border-radius:5px;
+    box-shadow: 10px 10px 10px rgba(179, 18, 31, 0.1);
+   max-width:250px;
+}
+.country-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+cursor:pointer ;
+    border-radius:5px;
+}
+.country{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+    gap:20px;
+justify-items: center;
+    margin:30px;
+    
+
+}
